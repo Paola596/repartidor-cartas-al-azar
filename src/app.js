@@ -1,4 +1,3 @@
-
 import "bootstrap";
 import "./style.css";
 
@@ -28,10 +27,9 @@ window.onload = function() {
     let oneNumber = numbers[Math.floor(Math.random() * numbers.length)];
     let showCard = `${oneCard}`;
     let showNumber = `${oneNumber}`;
-    document.getElementsByClassName("pinta").innerHTML = showCard;
-    document.getElementsByClassName("valor").innerHTML = showNumber;
+    document.querySelector(".pinta").innerHTML = showCard;
+    document.querySelector(".valor").innerHTML = showNumber;
   }
 };
 
-  console.log("Hello Rigo from the console!");
-
+console.log("Hello Rigo from the console!");
